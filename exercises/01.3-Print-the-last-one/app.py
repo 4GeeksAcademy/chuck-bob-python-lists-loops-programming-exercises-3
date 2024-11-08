@@ -14,3 +14,6 @@ my_stupid_list = generate_random_list()
 
 # Write your code below this comment, good luck!
 
+my_stupid_list.append(random.randint(1,100))
+
+print(my_stupid_list[-1])

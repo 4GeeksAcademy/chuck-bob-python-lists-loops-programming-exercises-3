@@ -2,6 +2,18 @@ list_of_numbers = [4, 80, 85, 59, 37, 25, 5, 64, 66, 81, 20, 64, 41, 22, 76, 76,
 
 # Your code here
 
+def sort_odd_even(x):
+    sorted_list = []
+    even_num = []
+
+    for i in list_of_numbers:
+        if i % 2 == 0:
+            even_num.append(i)
+        else:
+            sorted_list.append(i)
+
+    sorted_list = sorted_list + even_num
+    return sorted_list
 
 print(sort_odd_even(list_of_numbers))
 

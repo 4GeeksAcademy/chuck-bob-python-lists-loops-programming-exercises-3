@@ -4,6 +4,8 @@ def sum_all_values(list):
     total = 0
     # The magic happens here
     
+    for i in range(len(my_sample_list)):
+        total = total + list[i]
     
     return total
     

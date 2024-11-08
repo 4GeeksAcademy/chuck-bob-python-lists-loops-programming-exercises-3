@@ -8,3 +8,8 @@ incoming_ajax_data = [
 
 # Your code here
 
+def data_transformer(array):
+    return list(map(lambda name_obj: f"{name_obj['name']} {name_obj['last_name']}", array))
+
+
+print(data_transformer(incoming_ajax_data))

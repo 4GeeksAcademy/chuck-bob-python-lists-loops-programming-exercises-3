@@ -2,6 +2,12 @@ people = ['juan','ana','michelle','daniella','stefany','lucy','barak']
 
 def delete_person(person_name):
     # Your code here
+    people2 = list(people)
+
+    if person_name in people2:
+        people2.remove(person_name)
+            
+    return people2
     
 
     
