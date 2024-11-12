@@ -5,9 +5,7 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 given_string = "am"
 
 def filter_names(names_arr, string):
-
     return list(filter(lambda name: string in name.lower(), names_arr))
-
 
 print(filter_names(names, given_string))
 

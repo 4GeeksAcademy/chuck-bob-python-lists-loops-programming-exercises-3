@@ -12,6 +12,4 @@ for letter in par2:
         else:
             counts[letter] = 1
 
-
-
 print(counts)
